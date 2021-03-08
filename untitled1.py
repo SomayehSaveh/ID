@@ -37,6 +37,15 @@ with open("C:/Users/somay/.spyder-py3/new.csv", "r") as new_csv_file:
              writer.writerow({"name":"ali", "id":5644688664})
              writer.writerow({"name":"hamid", "id":321464877})
              writer.writerow( {"name":"jafar", "id":568874452})
+                  
+                  
+import pandas 
+
+csvFile = pandas.read_csv('C:/Users/somay/.spyder-py3/new.csv') 
+  
+# displaying the contents of the CSV file 
+print(csvFile)
+
            
 
 
